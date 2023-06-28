@@ -12,7 +12,7 @@ char i;
 int x;
 x = 0;
 
-while (x < 9)
+while (x < 10)
 {
 for (i = 'a'; i <= 'z'; i++)
 _putchar(i);
