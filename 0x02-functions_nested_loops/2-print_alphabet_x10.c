@@ -2,19 +2,21 @@
 
 /**
  * print_alphabet_x10 - prints out the alphabet
- * Return: void
+ * main - uses built in function
+ * Return: 0 if succesful
  */
 
 void print_alphabet_x10(void)
 {
-char c;
-int i=0;
+char i;
+int x;
+x = 0;
 
-while (i <= 9)
+while (x < 9)
 {
-for (c = 'a'; c <= 'z'; c++)
-_putchar(c);
-}
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
 _putchar('\n');
-i++;
+x++;
+}
 }
